@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="TransButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.windowController">
+    <children>
+        <TextField fx:id="InField1" layoutX="116.0" layoutY="122.0" prefHeight="39.0" prefWidth="232.0" />
+        <Button fx:id="CalculateButton" layoutX="443.0" layoutY="257.0" mnemonicParsing="false" onAction="#ButtonClick1" prefHeight="62.0" prefWidth="116.0" text="Calculate" />
+        <TextField fx:id="InField2" layoutX="443.0" layoutY="122.0" prefHeight="39.0" prefWidth="232.0" />
+        <Button fx:id="oneButton2" layoutX="116.0" layoutY="184.0" mnemonicParsing="false" onAction="#oneButtonClick1" prefHeight="73.0" prefWidth="72.0" text="1" />
+        <Button fx:id="fourButton2" layoutX="116.0" layoutY="257.0" mnemonicParsing="false" onAction="#fourButtonClick1" prefHeight="73.0" prefWidth="72.0" text="4" />
+        <Button fx:id="twoButton2" layoutX="188.0" layoutY="184.0" mnemonicParsing="false" onAction="#twoButtonClick1" prefHeight="73.0" prefWidth="72.0" text="2" />
+        <Button fx:id="sixButton2" layoutX="260.0" layoutY="257.0" mnemonicParsing="false" onAction="#sixButtonClick1" prefHeight="73.0" prefWidth="72.0" text="6" />
+        <Button fx:id="nineButton2" layoutX="260.0" layoutY="330.0" mnemonicParsing="false" onAction="#nineButtonClick1" prefHeight="73.0" prefWidth="72.0" text="9" />
+        <Button fx:id="fiveButton2" layoutX="188.0" layoutY="257.0" mnemonicParsing="false" onAction="#fiveButtonClick1" prefHeight="73.0" prefWidth="72.0" text="5" />
+        <Button fx:id="eightButton2" layoutX="188.0" layoutY="330.0" mnemonicParsing="false" onAction="#eightButtonClick1" prefHeight="73.0" prefWidth="72.0" text="8" />
+        <Button fx:id="sevenButton2" layoutX="116.0" layoutY="331.0" mnemonicParsing="false" onAction="#sevenButtonClick1" prefHeight="73.0" prefWidth="72.0" text="7" />
+        <Button fx:id="threeButton2" layoutX="260.0" layoutY="184.0" mnemonicParsing="false" onAction="#threeButtonClick1" prefHeight="73.0" prefWidth="72.0" text="3" />
+        <Button fx:id="zeroButton2" layoutX="188.0" layoutY="404.0" mnemonicParsing="false" onAction="#zeroButtonClick1" prefHeight="73.0" prefWidth="72.0" text="0" />
+        <TextField fx:id="OutField" layoutX="443.0" layoutY="201.0" prefHeight="39.0" prefWidth="232.0" />
+        <MenuButton fx:id="enumButton" layoutX="12.0" layoutY="122.0" mnemonicParsing="false" text="СС">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#firstNumSystem16ButtonClick" text="16" />
+                <MenuItem mnemonicParsing="false" onAction="#firstNumSystem10ButtonClick" text="10" />
+                <MenuItem mnemonicParsing="false" onAction="#firstNumSystem8ButtonClick" text="8" />
+                <MenuItem mnemonicParsing="false" onAction="#firstNumSystem2ButtonClick" text="2" />
+            </items>
+        </MenuButton>
+        <MenuButton fx:id="enumButton2" layoutX="691.0" layoutY="122.0" mnemonicParsing="false" text="СС">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#secNumSystem16ButtonClick" text="16" />
+                <MenuItem mnemonicParsing="false" onAction="#secNumSystem10ButtonClick" text="10" />
+                <MenuItem mnemonicParsing="false" onAction="#secNumSystem8ButtonClick" text="8" />
+                <MenuItem mnemonicParsing="false" onAction="#secNumSystem2ButtonClick" text="2" />
+            </items>
+        </MenuButton>
+        <Button fx:id="decNumChoose" layoutX="10.0" layoutY="149.0" mnemonicParsing="false" onAction="#DecNumberChooseClick" text="Button" />
+      <ImageView fitHeight="73.0" fitWidth="72.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: transparent;">
+         <image>
+            <Image url="@../Assets/National_University_of_Science_and_Technology_MISiS_Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="inField2Button" layoutX="468.0" layoutY="122.0" mnemonicParsing="false" onAction="#inField2ButtonClick" prefHeight="39.0" prefWidth="207.0" style="-fx-background-color: transparent;" text=" " textFill="TRANSPARENT" />
+      <Button fx:id="inField1Button" layoutX="153.0" layoutY="122.0" mnemonicParsing="false" onAction="#inField1ButtonClick" prefHeight="39.0" prefWidth="195.0" style="-fx-background-color: transparent;" text=" " textFill="TRANSPARENT" />
+      <MenuButton fx:id="ActionButton" layoutX="364.0" layoutY="122.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="52.0">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#plusButtonClick" text="+" />
+            <MenuItem mnemonicParsing="false" onAction="#minusButtonClick" text="-" />
+            <MenuItem mnemonicParsing="false" onAction="#muliplyButtonClick" text="*" />
+            <MenuItem mnemonicParsing="false" onAction="#devideButtonClick" text="/" />
+        </items>
+      </MenuButton>
+    </children>
+</AnchorPane>
